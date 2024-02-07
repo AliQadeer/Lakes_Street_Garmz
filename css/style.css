@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Breadcrumb */
+
+.breadcrumb_main {
+  background-color: #e0e0e0;
+}
+.breadcrumb_main li a {
+  color: #099066;
+}
+/* End Breadcrumb */
+.logo_main {
+  width: 7%;
+}
+.themeText_color {
+  color: #099066;
+}
+
+.header_bg {
+  background-color: #333;
+}
+.theme-btn {
+  text-decoration: none;
+  background: #8fdefd;
+  color: #000000;
+  padding: 6px 20px;
+  border-radius: 50px;
+}
+.theme-btn:hover {
+  background: #099066;
+  color: #ffffff;
+}
+.custom_dropdown {
+  left: -120px !important;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.active {
+  background: #8fdefd;
+  /* color: #ffffff !important; */
+}
+.navbar-nav li a {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #099066 !important;
+  padding: 10px !important;
+}
+.navbar {
+  background-color: #8fdefd !important;
+}
+.navbar-nav a:hover {
+  background: #099066;
+  color: #ffffff !important;
+}
+.navbar-nav a:hover svg {
+  fill: #ffffff;
+}
+/* Slider Section */
+.slider_text h1 {
+  font-size: 60px;
+  width: 85%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 9999;
+  color: #fff;
+  text-align: center;
+}
+/* End Slider Section */
+
+/* Product Section */
+.product_cart {
+  width: 85%;
+  font-size: 14px;
+}
+.product_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+}
+.slick-prev,
+.slick-next {
+  height: 35px !important;
+  width: 35px !important;
+  border-radius: 20px !important;
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 35px !important;
+  opacity: 1 !important;
+}
+.size a {
+  text-decoration: none;
+  padding: 2px;
+  border: 1px solid #000;
+  color: #000000;
+  margin-right: 5px;
+}
+.active_size {
+  background-color: #8fdefd;
+}
+.size a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.select_color {
+  padding: 10px;
+  border-radius: 100px;
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+}
+.color_one {
+  background: #f16e36;
+}
+.color_two {
+  background-color: #000000;
+}
+.active_color {
+  border: 1px solid #c03e06;
+}
+.product_cart {
+  border-radius: 10px;
+}
+.product_img {
+  position: absolute;
+  bottom: 70px;
+  left: 195px;
+  display: inline-block;
+  right: -70px;
+}
+.whole_product {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+/* End Product Section */
+
+.left-image {
+  background-image: url("../images/left_img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* End login Page */
+
+/* FAQ Section */
+.accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none;
+}
+.accordion-button[aria-expanded="true"] {
+  color: #ffffff !important;
+  background-color: #099066 !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* End FAQ Section */
+
+/* Contact Us Section */
+.form-image {
+  width: 100%;
+  max-width: 545px;
+  height: 450px;
+  object-fit: cover;
+}
+/* End Contact Us Section */
+
+/* Signup Section */
+
+.form_main {
+  width: 60%;
+  margin: 14% auto;
+}
+
+/* End Signup Section */
+
+/* Product Detials */
+
+.cart_btn {
+  text-decoration: none;
+  background: #8fdefd;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 25px;
+  width: 60%;
+  display: inline-block;
+}
+
+/* End Product Detials */
+
+/* Footer Section */
+.footer_main {
+  background-color: #8fdefd;
+}
+.footer_links li h4 {
+  border-bottom: 1px solid #099066;
+  display: inline-block;
+}
+.footer_links li a {
+  color: #099066;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.footer_links li a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* End Footer Section */
+
+/* Responsive*/
+
+@media screen and (max-width: 780px) {
+  .slider_text h1 {
+    font-size: 35px;
+  }
+}

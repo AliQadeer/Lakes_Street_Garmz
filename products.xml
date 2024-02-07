@@ -1,0 +1,21 @@
+<products>
+  <product>
+    <name>NIKE DRILL 23 SET OBSIDIAN - HALF ZIP & TROUSERS</name>
+    <description>Sale</description>
+    <price>$100.00</price>
+    <imagePath>images/shirt_1.webp</imagePath>
+  </product>
+  <product>
+    <name>NIKE DRILL 23 SET RED - 4 PIECE</name>
+    <description>Sale</description>
+    <price>$80.00</price>
+    <imagePath>images/shirt_2.webp</imagePath>
+  </product>
+  <product>
+    <name>NIKE DRILL 23 SET WHITE - HALF ZIP & TROUSERS</name>
+    <description>Sale</description>
+    <price>$60.00</price>
+    <imagePath>images/shirt_3.jpg</imagePath>
+  </product>
+  <!-- Add more product entries as needed -->
+</products>
